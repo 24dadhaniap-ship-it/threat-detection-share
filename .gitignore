@@ -1,0 +1,27 @@
+﻿.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/
+2017/
+archive*/
+*.csv
+*.parquet
+*.pbix
+models/*
+!models/*_config.json
+!models/*_thresholds.json
+!models/rule_*.json
+!reports/*.csv
+!models/*_decision.json
+!dashboard/*.csv
+reports/drift/*.html
+mlflow.db
+mlruns/
+.env
+!models/*_risk.json
+
+# generated / intermediate
+reports/novelty/
+reports/incident_eval/
+reports/*.log
+models/novelty/
